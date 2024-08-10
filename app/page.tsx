@@ -1,7 +1,6 @@
 import DashboardCard from "@/components/dashboard/DashboredCard";
 import { Folder, MessageCircle, Newspaper, User } from "lucide-react";
-
-
+import ChartTime from "@/components/Chart/chart";
 export default function Home() {
   return (
  <>
@@ -26,6 +25,7 @@ export default function Home() {
   count={1200} 
   icon={ <MessageCircle className="text-slate-500" size={72}/>}  
   />
+  <ChartTime/>
   </div>
  </>
   );
